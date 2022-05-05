@@ -13,18 +13,19 @@ const Map = () => {
   const coordinates = { lat: 0, lng: 0 };
 
   return (
-    <div className={classes.mapContainer}>
-      <GoogleMapReact
-        bootstrapURLKeys={{ key: 'AIzaSyBK6lr0YPduX812EGjxg85V8oRPomMKeO4' }}
-        defaultCenter={coordinates}
-        center={coordinates}
-        defaultZoom={14}
-        margin={[50, 50, 50, 50]}
-        options={''}
-        onChange={''}
-        onChildClick={''}
-      ></GoogleMapReact>
-    </div>
+    <div>maps</div>
+    // <div className={classes.mapContainer}>
+    //   <GoogleMapReact
+    //     bootstrapURLKeys={{ key: 'AIzaSyBK6lr0YPduX812EGjxg85V8oRPomMKeO4' }}
+    //     defaultCenter={coordinates}
+    //     center={coordinates}
+    //     defaultZoom={14}
+    //     margin={[50, 50, 50, 50]}
+    //     options={''}
+    //     onChange={''}
+    //     onChildClick={''}
+    //   ></GoogleMapReact>
+    // </div>
   );
 };
 
